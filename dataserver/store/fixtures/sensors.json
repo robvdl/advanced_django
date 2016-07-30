@@ -1,0 +1,277 @@
+[
+  {
+    "pk": 1,
+    "fields": {
+      "type": 2,
+      "warning_lower": 0,
+      "name": "Furnishings",
+      "site": 4,
+      "warning_upper": 197
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 2,
+    "fields": {
+      "type": 1,
+      "warning_lower": 8,
+      "name": "uDig",
+      "site": 5,
+      "warning_upper": 164
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 3,
+    "fields": {
+      "type": 2,
+      "warning_lower": 2,
+      "name": "Zend Framework",
+      "site": 6,
+      "warning_upper": 156
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 4,
+    "fields": {
+      "type": 1,
+      "warning_lower": 3,
+      "name": "NHS",
+      "site": 6,
+      "warning_upper": 180
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 5,
+    "fields": {
+      "type": 1,
+      "warning_lower": 3,
+      "name": "HSEEP",
+      "site": 5,
+      "warning_upper": 496
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 6,
+    "fields": {
+      "type": 1,
+      "warning_lower": 0,
+      "name": "VSEO",
+      "site": 2,
+      "warning_upper": 492
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 7,
+    "fields": {
+      "type": 2,
+      "warning_lower": 7,
+      "name": "Keratin Treatment",
+      "site": 1,
+      "warning_upper": 450
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 8,
+    "fields": {
+      "type": 2,
+      "warning_lower": 2,
+      "name": "Company Set-up",
+      "site": 5,
+      "warning_upper": 491
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 9,
+    "fields": {
+      "type": 2,
+      "warning_lower": 9,
+      "name": "Customer Support",
+      "site": 4,
+      "warning_upper": 463
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 10,
+    "fields": {
+      "type": 1,
+      "warning_lower": 2,
+      "name": "CQB",
+      "site": 4,
+      "warning_upper": 471
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 11,
+    "fields": {
+      "type": 2,
+      "warning_lower": 4,
+      "name": "CBT",
+      "site": 5,
+      "warning_upper": 466
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 12,
+    "fields": {
+      "type": 1,
+      "warning_lower": 0,
+      "name": "Mplus",
+      "site": 4,
+      "warning_upper": 480
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 13,
+    "fields": {
+      "type": 2,
+      "warning_lower": 5,
+      "name": "Year End Accounts",
+      "site": 6,
+      "warning_upper": 495
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 14,
+    "fields": {
+      "type": 1,
+      "warning_lower": 8,
+      "name": "Investment Banking",
+      "site": 5,
+      "warning_upper": 464
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 15,
+    "fields": {
+      "type": 1,
+      "warning_lower": 10,
+      "name": "Education",
+      "site": 6,
+      "warning_upper": 453
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 16,
+    "fields": {
+      "type": 1,
+      "warning_lower": 3,
+      "name": "HBV",
+      "site": 3,
+      "warning_upper": 488
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 17,
+    "fields": {
+      "type": 2,
+      "warning_lower": 2,
+      "name": "Unix",
+      "site": 1,
+      "warning_upper": 450
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 18,
+    "fields": {
+      "type": 2,
+      "warning_lower": -10,
+      "name": "Silhouette FX",
+      "site": 3,
+      "warning_upper": 457
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 19,
+    "fields": {
+      "type": 1,
+      "warning_lower": 2,
+      "name": "Emergency Room",
+      "site": 4,
+      "warning_upper": 475
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 20,
+    "fields": {
+      "type": 2,
+      "warning_lower": 0,
+      "name": "Xactly Incent",
+      "site": 4,
+      "warning_upper": 472
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 21,
+    "fields": {
+      "type": 1,
+      "warning_lower": 4,
+      "name": "FEED",
+      "site": 3,
+      "warning_upper": 463
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 22,
+    "fields": {
+      "type": 2,
+      "warning_lower": 10,
+      "name": "Jazz",
+      "site": 3,
+      "warning_upper": 478
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 23,
+    "fields": {
+      "type": 2,
+      "warning_lower": 9,
+      "name": "VLSM",
+      "site": 3,
+      "warning_upper": 500
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 24,
+    "fields": {
+      "type": 1,
+      "warning_lower": 9,
+      "name": "WMS Implementations",
+      "site": 2,
+      "warning_upper": 489
+    },
+    "model": "store.sensor"
+  },
+  {
+    "pk": 25,
+    "fields": {
+      "type": 2,
+      "warning_lower": 3,
+      "name": "ICT",
+      "site": 1,
+      "warning_upper": 489
+    },
+    "model": "store.sensor"
+  }
+]

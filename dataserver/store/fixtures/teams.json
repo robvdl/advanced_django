@@ -1,0 +1,47 @@
+[
+  {
+    "pk": 1,
+    "fields": {
+      "timezone": "America/Bogota",
+      "name": "Treeflex",
+      "email": "cschmidt0@goo.ne.jp"
+    },
+    "model": "store.team"
+  },
+  {
+    "pk": 2,
+    "fields": {
+      "timezone": "Asia/Hebron",
+      "name": "Catalyst",
+      "email": "wbailey1@amazon.com"
+    },
+    "model": "store.team"
+  },
+  {
+    "pk": 3,
+    "fields": {
+      "timezone": "America/Denver",
+      "name": "Sonsing",
+      "email": "tford2@flickr.com"
+    },
+    "model": "store.team"
+  },
+  {
+    "pk": 4,
+    "fields": {
+      "timezone": "Asia/Jakarta",
+      "name": "Voyatouch",
+      "email": "kcarpenter3@house.gov"
+    },
+    "model": "store.team"
+  },
+  {
+    "pk": 5,
+    "fields": {
+      "timezone": "Pacific/Auckland",
+      "name": "Konklab",
+      "email": "smeyer4@sourceforge.net"
+    },
+    "model": "store.team"
+  }
+]

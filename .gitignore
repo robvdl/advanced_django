@@ -1,0 +1,4 @@
+notes.md
+*.sqlite
+*.pyc
+env/

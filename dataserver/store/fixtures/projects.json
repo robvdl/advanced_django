@@ -1,0 +1,26 @@
+[
+  {
+    "pk": 1,
+    "fields": {
+      "name": "Canterbury",
+      "teams": [1, 2, 3, 4, 5]
+    },
+    "model": "store.project"
+  },
+  {
+    "pk": 2,
+    "fields": {
+      "name": "Wellington",
+      "teams": [3, 5]
+    },
+    "model": "store.project"
+  },
+  {
+    "pk": 3,
+    "fields": {
+      "name": "Nelson",
+      "teams": [1, 2, 4]
+    },
+    "model": "store.project"
+  }
+]

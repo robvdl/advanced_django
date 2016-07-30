@@ -1,0 +1,18 @@
+[
+  {
+    "pk": 1,
+    "fields": {
+      "name": "Type A",
+      "units": "W"
+    },
+    "model": "store.sensortype"
+  },
+  {
+    "pk": 2,
+    "fields": {
+      "name": "Type B",
+      "units": "Amp"
+    },
+    "model": "store.sensortype"
+  }
+]

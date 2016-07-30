@@ -1,0 +1,50 @@
+[
+  {
+    "pk": 1,
+    "fields": {
+      "name": "Finspång",
+      "project": 2
+    },
+    "model": "store.site"
+  },
+  {
+    "pk": 2,
+    "fields": {
+      "name": "Živinice",
+      "project": 2
+    },
+    "model": "store.site"
+  },
+  {
+    "pk": 3,
+    "fields": {
+      "name": "Saint-Jean-de-Luz",
+      "project": 1
+    },
+    "model": "store.site"
+  },
+  {
+    "pk": 4,
+    "fields": {
+      "name": "Ust’-Izhora",
+      "project": 3
+    },
+    "model": "store.site"
+  },
+  {
+    "pk": 5,
+    "fields": {
+      "name": "Rancabuaya",
+      "project": 2
+    },
+    "model": "store.site"
+  },
+  {
+    "pk": 6,
+    "fields": {
+      "name": "Santiago",
+      "project": 3
+    },
+    "model": "store.site"
+  }
+]
