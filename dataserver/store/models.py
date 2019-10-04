@@ -12,7 +12,7 @@ class Person(models.Model):
     last_name = models.CharField(max_length=254)
     phone_number = PhoneNumberField()
     email = models.EmailField()
-    team = models.ForeignKey('Team', related_name='persons')
+    team = models.ForeignKey('Team', related_name='persons', on_delete=models.CASCADE)
 
     def __str__(self):
         return "{} {}".format(self.first_name, self.last_name)
@@ -43,7 +43,7 @@ class Project(models.Model):
 @named_model
 class Site(models.Model):
     name = models.CharField(max_length=254, unique=True)
-    project = models.ForeignKey('Project', related_name='sites')
+    project = models.ForeignKey('Project', related_name='sites', on_delete=models.CASCADE)
 
 
 @named_model
@@ -55,8 +55,8 @@ class SensorType(models.Model):
 @named_model
 class Sensor(models.Model):
     name = models.CharField(max_length=254)
-    site = models.ForeignKey('Site')
-    type = models.ForeignKey('SensorType')
+    site = models.ForeignKey('Site', on_delete=models.CASCADE)
+    type = models.ForeignKey('SensorType', on_delete=models.CASCADE)
     warning_upper = models.FloatField()
     warning_lower = models.FloatField()
 
@@ -71,7 +71,7 @@ class Sensor(models.Model):
 
 class Measurement(models.Model):
     timestamp = models.DateTimeField()
-    sensor = models.ForeignKey('Sensor')
+    sensor = models.ForeignKey('Sensor', on_delete=models.CASCADE)
     value = models.FloatField()
 
     class Meta:
