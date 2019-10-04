@@ -1,0 +1,29 @@
+version: "3"
+
+services:
+  app:
+    build: .
+    depends_on:
+      - db
+    volumes:
+      - .:/opt/project
+    command: ./bin/run_app.sh
+    stop_signal: SIGINT
+    restart: always
+    ports:
+      - 18000:8000
+
+  db:
+    image: postgres:11
+    restart: always
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - .:/opt/project
+    environment:
+      POSTGRES_USER: train
+      POSTGRES_PASSWORD: train
+      POSTGRES_DB: train
+      PGTZ: Pacific/Auckland
+
+volumes:
+  pgdata:
