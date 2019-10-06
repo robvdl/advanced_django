@@ -40,7 +40,7 @@ INSTALLED_APPS = [
 
     'timezone_field',
 
-    'store',
+    'store.apps.StoreConfig',
 ]
 
 MIDDLEWARE = [
