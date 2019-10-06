@@ -6,7 +6,7 @@
       "first_name": "Harry",
       "team": 2,
       "email": "holson0@purevolume.com",
-      "phone_number": "86-(229)217-8330"
+      "phone_number": "+1-202-555-0117"
     },
     "model": "store.person"
   },
@@ -17,7 +17,7 @@
       "first_name": "Edward",
       "team": 3,
       "email": "ecoleman1@google.com.au",
-      "phone_number": "93-(939)778-6975"
+      "phone_number": "+1-202-555-0189"
     },
     "model": "store.person"
   },
@@ -28,7 +28,7 @@
       "first_name": "Eric",
       "team": 1,
       "email": "ejohnson2@ucoz.com",
-      "phone_number": "7-(810)571-2562"
+      "phone_number": "+1-202-555-0182"
     },
     "model": "store.person"
   },
@@ -39,7 +39,7 @@
       "first_name": "Nicole",
       "team": 2,
       "email": "nmurphy3@histats.com",
-      "phone_number": "86-(736)490-5364"
+      "phone_number": "+1-202-555-0146"
     },
     "model": "store.person"
   },
@@ -50,7 +50,7 @@
       "first_name": "Emily",
       "team": 2,
       "email": "ecoleman4@sun.com",
-      "phone_number": "380-(622)540-8283"
+      "phone_number": "+1-202-555-0167"
     },
     "model": "store.person"
   },
@@ -61,7 +61,7 @@
       "first_name": "Ralph",
       "team": 2,
       "email": "rfields5@baidu.com",
-      "phone_number": "62-(192)819-9281"
+      "phone_number": "+1-202-555-0173"
     },
     "model": "store.person"
   },
@@ -72,7 +72,7 @@
       "first_name": "Anne",
       "team": 1,
       "email": "acampbell6@indiatimes.com",
-      "phone_number": "353-(503)466-8908"
+      "phone_number": "+1-410-555-0170"
     },
     "model": "store.person"
   },
@@ -83,7 +83,7 @@
       "first_name": "Barbara",
       "team": 2,
       "email": "blarson7@foxnews.com",
-      "phone_number": "63-(108)141-0090"
+      "phone_number": "+1-410-555-0108"
     },
     "model": "store.person"
   },
@@ -94,7 +94,7 @@
       "first_name": "Henry",
       "team": 2,
       "email": "hclark8@flavors.me",
-      "phone_number": "98-(459)182-9885"
+      "phone_number": "+1-410-555-0132"
     },
     "model": "store.person"
   },
@@ -105,7 +105,7 @@
       "first_name": "Christina",
       "team": 3,
       "email": "calvarez9@friendfeed.com",
-      "phone_number": "86-(436)233-1452"
+      "phone_number": "+1-410-555-0101"
     },
     "model": "store.person"
   },
@@ -116,7 +116,7 @@
       "first_name": "Rachel",
       "team": 3,
       "email": "rfranklina@studiopress.com",
-      "phone_number": "93-(402)822-8427"
+      "phone_number": "+1-410-555-0134"
     },
     "model": "store.person"
   },
@@ -127,7 +127,7 @@
       "first_name": "Margaret",
       "team": 1,
       "email": "mmillerb@tinypic.com",
-      "phone_number": "49-(167)704-9642"
+      "phone_number": "+1-410-555-0186"
     },
     "model": "store.person"
   },
@@ -138,7 +138,7 @@
       "first_name": "Tina",
       "team": 3,
       "email": "trayc@amazon.com",
-      "phone_number": "7-(969)953-0647"
+      "phone_number": "+1-404-555-0185"
     },
     "model": "store.person"
   },
@@ -149,7 +149,7 @@
       "first_name": "Ruth",
       "team": 4,
       "email": "rtuckerd@shop-pro.jp",
-      "phone_number": "86-(457)993-7616"
+      "phone_number": "+1-404-555-0113"
     },
     "model": "store.person"
   },
@@ -160,7 +160,7 @@
       "first_name": "Irene",
       "team": 4,
       "email": "ifoxe@amazon.co.uk",
-      "phone_number": "98-(432)586-2079"
+      "phone_number": "+1-404-555-0168"
     },
     "model": "store.person"
   },
@@ -171,7 +171,7 @@
       "first_name": "Wanda",
       "team": 2,
       "email": "wriveraf@gmpg.org",
-      "phone_number": "33-(297)103-3559"
+      "phone_number": "+1-404-555-0179"
     },
     "model": "store.person"
   },
@@ -182,7 +182,7 @@
       "first_name": "James",
       "team": 4,
       "email": "jscottg@prweb.com",
-      "phone_number": "86-(348)703-4961"
+      "phone_number": "+1-404-555-0129"
     },
     "model": "store.person"
   },
@@ -193,7 +193,7 @@
       "first_name": "Ann",
       "team": 2,
       "email": "amooreh@opensource.org",
-      "phone_number": "86-(736)381-1067"
+      "phone_number": "+1-404-555-0193"
     },
     "model": "store.person"
   },
@@ -204,7 +204,7 @@
       "first_name": "Judy",
       "team": 2,
       "email": "jhughesi@devhub.com",
-      "phone_number": "62-(430)802-4923"
+      "phone_number": "+1-207-555-0102"
     },
     "model": "store.person"
   },
@@ -215,7 +215,7 @@
       "first_name": "Jerry",
       "team": 3,
       "email": "jbutlerj@ucla.edu",
-      "phone_number": "86-(713)548-6675"
+      "phone_number": "+1-701-555-0150"
     },
     "model": "store.person"
   }
