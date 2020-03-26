@@ -22,5 +22,4 @@ RUN python3 -m venv /virtualenv
 RUN pip install --upgrade pip setuptools
 RUN pip install -r requirements.txt
 
-RUN mkdir /opt/project
-WORKDIR /opt/project
+WORKDIR /code

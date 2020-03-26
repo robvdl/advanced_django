@@ -3,11 +3,13 @@ version: "3"
 services:
   app:
     build: .
+    image: dataserver
     depends_on:
       - db
+      - redis
     volumes:
-      - .:/opt/project
-    command: ./bin/run_app.sh
+      - .:/code
+    command: ./manage.py runserver 0.0.0.0:8000
     stop_signal: SIGINT
     restart: always
     ports:
@@ -18,12 +20,16 @@ services:
     restart: always
     volumes:
       - pgdata:/var/lib/postgresql/data
-      - .:/opt/project
+      - .:/code
     environment:
       POSTGRES_USER: train
       POSTGRES_PASSWORD: train
       POSTGRES_DB: train
       PGTZ: Pacific/Auckland
+
+  redis:
+    image: redis
+    restart: always
 
 volumes:
   pgdata:
