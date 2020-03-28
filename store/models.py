@@ -10,7 +10,7 @@ class Person(models.Model):
     last_name = models.CharField(max_length=254)
     phone_number = PhoneNumberField()
     email = models.EmailField()
-    team = models.ForeignKey('Team', related_name='persons', on_delete=models.CASCADE)
+    team = models.ForeignKey('Team', related_name='members', on_delete=models.CASCADE)
 
     def __str__(self):
         return f'{self.first_name} {self.last_name}'

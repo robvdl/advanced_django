@@ -93,7 +93,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='person',
             name='team',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='persons', to='store.Team'),
+            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='members', to='store.Team'),
         ),
         migrations.AddField(
             model_name='measurement',
