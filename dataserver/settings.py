@@ -25,7 +25,8 @@ SECRET_KEY = 'dla2-s$^h!=fx^0n2*61+35qn^(i@aelt4i#3__rt3c=6jm%&w'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# Allow all hosts, keeps things simple for training.
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
