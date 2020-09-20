@@ -26,6 +26,14 @@ psql:
 	docker-compose exec db psql -U train
 
 #
+# Django shell
+#
+
+.PHONY: shell
+shell:
+	docker-compose exec web ./manage.py shell
+
+#
 # Run tests
 #
 
