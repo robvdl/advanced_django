@@ -30,6 +30,7 @@ services:
   redis:
     image: redis
     restart: always
+    command: --requirepass train
 
 volumes:
   pgdata:
