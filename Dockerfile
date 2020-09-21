@@ -3,7 +3,7 @@ ENV PYTHONUNBUFFERED 1
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update -y \
-    && apt-get -y install git locales libpq-dev postgresql-client vim \
+    && apt-get -y install git locales libpq-dev postgresql-client vim graphviz libgraphviz-dev \
     && rm -rf /var/lib/apt/lists/* /var/cache/apt/*
 
 # Set timezone
